@@ -1,0 +1,137 @@
+// Welcome to Herta Markup
+// HTML wrapper for organized document structure
+// You write the code, we sort
+
+class style
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+.container {
+    background: white;
+    border-radius: 10px;
+    padding: 50px;
+    max-width: 600px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    text-align: center;
+}
+h1 {
+    color: #667eea;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+.tagline {
+    color: #666;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+.features {
+    text-align: left;
+    margin: 30px 0;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+.features li {
+    margin: 10px 0;
+    list-style: none;
+    padding-left: 25px;
+    position: relative;
+}
+.features li:before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #667eea;
+}
+.code-example {
+    background: #2d2d2d;
+    color: #f8f8f2;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+    text-align: left;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+    overflow-x: auto;
+}
+.cta {
+    margin-top: 30px;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #667eea;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background 0.3s;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+.btn:hover {
+    background: #764ba2;
+}
+.footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    color: #999;
+    font-size: 0.9em;
+}
+close style
+
+class head
+<title>Herta Markup - HTML Wrapper</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Herta - HTML wrapper for organized document structure">
+close head
+
+class body
+<div class="container">
+    <h1>Herta Markup</h1>
+    <p class="tagline">You write the code, we sort</p>
+    
+    <p>HTML wrapper for organized document structure. Write clean, readable `.herta` files. We handle the boilerplate.</p>
+    
+    <div class="features">
+        <ul>
+            <li>Three keywords: class, close, raw HTML</li>
+            <li>Zero learning curve for developers</li>
+            <li>Organized style, head, and body sections</li>
+            <li>Fast, compact, modular architecture</li>
+            <li>Full HTML passthrough - no limitations</li>
+        </ul>
+    </div>
+    
+    <div class="code-example">
+class style
+    body { background: #f0f0f0; }
+close style
+class body
+    </div>
+    
+    <div class="cta">
+        <a href="https://github.com/yourusername/herta" class="btn">View on GitHub</a>
+        <button class="btn" onclick="alert('Herta: You write the code, we sort.')">Learn More</button>
+    </div>
+    
+    <div class="footer">
+        <p>Herta © 2025 | Simple. Fast. Works.</p>
+    </div>
+</div>
+close body
