@@ -126,7 +126,7 @@ class body
     </div>
     
     <div class="cta">
-        <a href="https://github.com/yourusername/herta" class="btn">View on GitHub</a>
+        <a href="https://github.com/Vladislavroading/herta-html-wrapper" class="btn">View on GitHub</a>
         <button class="btn" onclick="alert('Herta: You write the code, we sort.')">Learn More</button>
     </div>
     
