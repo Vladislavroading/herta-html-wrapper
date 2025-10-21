@@ -2,7 +2,6 @@ open("log.txt", "w")
 
 """ 
     herta design parser to html
-    self made ui markdown language
     in development
 """
 import getpass
